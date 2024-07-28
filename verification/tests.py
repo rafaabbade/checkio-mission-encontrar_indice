@@ -10,6 +10,24 @@ Each test is a dict with
 
 TESTS = {
     "Basics": [
-        {{TESTES}}
+        [
+    {
+        "input": [["O Senhor dos Anéis", "1984", "Dom Casmurro"], "1984"],
+        "answer": 1
+    },
+    {
+        "input": [["O Senhor dos Anéis", "1984", "Dom Casmurro"], "Harry Potter"],
+        "answer": -1
+    },
+    {
+        "input": [["O Alquimista", "O Pequeno Príncipe", "1984"], "O Pequeno Príncipe"],
+        "answer": 1
+    },
+    {
+        "input": [["1984", "Dom Casmurro"], "1984"],
+        "answer": 0
+    }
+]
+
     ]
 }

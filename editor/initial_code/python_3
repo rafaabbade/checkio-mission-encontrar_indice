@@ -1,1 +1,15 @@
-{{CODIGO INICIAL}}
+def encontrar_indice(titulos, titulo):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(encontrar_indice(["O Senhor dos Anéis", "1984", "Dom Casmurro"], "1984"))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert encontrar_indice(["O Senhor dos Anéis", "1984", "Dom Casmurro"], "1984") == 1
+assert encontrar_indice(["O Senhor dos Anéis", "1984", "Dom Casmurro"], "Harry Potter") == -1
+assert encontrar_indice(["O Alquimista", "O Pequeno Príncipe", "1984"], "O Pequeno Príncipe") == 1
+assert encontrar_indice(["1984", "Dom Casmurro"], "1984") == 0
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
+
